@@ -1,0 +1,8 @@
+---
+  output: html_document
+---
+  Elements Of Data Visualization: Final Project
+===
+  __By Alex Cortez, Adam Hernandez, and Alex Pearce__
+
+__GitHub__: https://github.com/ACollectionOfAtoms/DV_FinalProject
