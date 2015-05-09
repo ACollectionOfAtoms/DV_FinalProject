@@ -14,4 +14,4 @@ tbl_df(all_age)
 
 ggplot(all_age, aes(x=AGE, y=sum, fill=type)) + geom_bar(stat="identity") + scale_fill_manual(values=c("#000000", "#CCCCCC"), name='') + ggtitle("Cancer Incidence and Death by Age")+ theme_bw()+ theme(plot.title =element_text(size= 18, face="bold",vjust = 1.5)) + xlab("Age") + ylab("Count") + theme(legend.direction = "horizontal",legend.position="bottom", legend.box = "horizontal" )
 
-# It appears that by ages 40 - 50, youth does not aid in survivability.
+# It appears that by ages 40 - 50, youth does not aid in survivability. This graph utilized a "bind_rows" from the combine data_sets
