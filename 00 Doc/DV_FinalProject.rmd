@@ -32,7 +32,12 @@ source("../02 Data Wrangling/general_age_analysis.R",echo=TRUE)
 source("../02 Data Wrangling/age_site.R",echo=TRUE)
 ```
 
-## Further analysis, introducing race. 
+## Some Data manipulation...
 ```{r message=FALSE}
 source("../02 Data Wrangling/age_site2.R",echo=TRUE)
+```
+
+## Further analysis, introducing race. 
+```{r message=FALSE}
+source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 ```
