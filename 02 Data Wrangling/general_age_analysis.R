@@ -1,6 +1,7 @@
 c_age <- cancer_by_age
-
-tbl_df(c_age)
+c_age$COUNT <- as.character(c_age$COUNT)
+c_age$COUNT[c_age$COUNT == 'null'] <- 1
+c_age$COUNT <- as.factor(c_age$COUNT)
 
 all_age <- c_age %>% select(AGE, COUNT,EVENT_TYPE) %>% filter(COUNT != 'null') %>% group_by(AGE) %>% summarise(sum=sum(COUNT)) %>% filter(AGE != '5-9') %>% mutate(cume = cume_dist(sum))
 

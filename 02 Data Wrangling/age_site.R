@@ -1,5 +1,9 @@
 age <- cancer_by_age
-unique(age$SITE)
+
+age$COUNT <- as.character(age$COUNT)
+age$COUNT[age$COUNT == 'null'] <- 1
+age$COUNT <- as.factor(age$COUNT)
+
 breasts <- c("Female Breast", "Male Breast", "Male and Female Breast <i>in situ</i>", "Female Breast, <i>in situ</i>", "Male and Female Breast")
 
 breast <- c("Female Breast" = "Breast", "Male Breast"= "Breast", "Male and Female Breast <i>in situ</i>"= "Breast", "Female Breast, <i>in situ</i>"= "Breast", "Male and Female Brease"= "Breast")
@@ -12,7 +16,7 @@ MAP <- c('70-74' = "Young Adult", '27-29' = 'Young Adult', '20-24'="Young Adult"
 
 #Classifications from wikipedia
 
-age <- age %>% select(AGE,SITE,EVENT_TYPE,COUNT,RACE,SEX) %>% filter(COUNT != 'null', SITE != 'All Cancer Sites Combined', SEX != 'Male and Female') %>% arrange(desc(COUNT))
+age <- age %>% select(AGE,SITE,EVENT_TYPE,COUNT,RACE,SEX) %>% filter(COUNT != 'null',SITE != 'All Cancer Sites Combined', SEX != 'Male and Female') %>% arrange(desc(COUNT))
 age$AGE <- MAP[age$AGE]
 tbl_df(age)
 
@@ -41,9 +45,8 @@ all_top <- unique(all_top)
 tbl_df(age)
 age <- filter(age, SITE %in% all_top) %>% group_by(AGE,SITE,EVENT_TYPE,RACE,SEX)
 
-ggplot(age, aes(AGE), weight = COUNT) + scale_x_discrete(limits=c("Child","Young Adult","Middle Adult","Elder Adult")) + geom_density(aes(group = SITE, colour = SITE)) + facet_wrap(~RACE)+ ggtitle("Top 13 Cancers By Race and Age Group")+ theme(plot.title =element_text(size= 17, face="bold",vjust = 1.7)) + xlab("Age Group") + ylab("Count") + theme(axis.text.x = element_text(angle = 60, hjust = 1))
+ggplot(age, aes(AGE), weight = COUNT, fill=SITE) + scale_x_discrete(limits=c("Child","Young Adult","Middle Adult","Elder Adult")) + geom_density(aes(group = SITE, color=SITE)) + ggtitle("Top 13 Cancers By Race and Age Group")+ theme(plot.title =element_text(size= 17, face="bold",vjust = 1.7)) + xlab("Age Group") + ylab("Count") + theme(axis.text.x = element_text(angle = 60, hjust = 1)) 
 
-#Two interesting things about this graph, It seems that Stomach cancer is the most prevalent, and that data is more than likely misrepresentative of the smaller populations due to size/hospital visitation.
-                                           
+#Joined data
                                            
                                            
