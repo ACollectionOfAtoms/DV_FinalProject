@@ -1,9 +1,5 @@
 age <- cancer_by_age
 
-age$COUNT <- as.character(age$COUNT)
-age$COUNT[age$COUNT == 'null'] <- 1
-age$COUNT <- as.factor(age$COUNT)
-
 breasts <- c("Female Breast", "Male Breast", "Male and Female Breast <i>in situ</i>", "Female Breast, <i>in situ</i>", "Male and Female Breast")
 
 breast <- c("Female Breast" = "Breast", "Male Breast"= "Breast", "Male and Female Breast <i>in situ</i>"= "Breast", "Female Breast, <i>in situ</i>"= "Breast", "Male and Female Brease"= "Breast")
@@ -45,8 +41,7 @@ all_top <- unique(all_top)
 tbl_df(age)
 age <- filter(age, SITE %in% all_top) %>% group_by(AGE,SITE,EVENT_TYPE,RACE,SEX)
 
-ggplot(age, aes(AGE), weight = COUNT, fill=SITE) + scale_x_discrete(limits=c("Child","Young Adult","Middle Adult","Elder Adult")) + geom_density(aes(group = SITE, color=SITE)) + ggtitle("Top 13 Cancers Age Group")+ theme(plot.title =element_text(size= 17, face="bold",vjust = 1.7)) + xlab("Age Group") + ylab("Count") + theme(axis.text.x = element_text(angle = 60, hjust = 1)) 
+ggplot(age, aes(AGE), weight = COUNT, fill=SITE) + scale_x_discrete(limits=c("Child","Young Adult","Middle Adult","Elder Adult")) + geom_density(aes(group = SITE, color=SITE)) + ggtitle("Top 13 Cancers By Race and Age Group")+ theme(plot.title =element_text(size= 17, face="bold",vjust = 1.7)) + xlab("Age Group") + ylab("Count") + theme(axis.text.x = element_text(angle = 60, hjust = 1)) + facet_wrap(~RACE)
 
 #Joined data
-                                           
-                                           
+
