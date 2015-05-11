@@ -50,11 +50,11 @@ source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 ![](./geographic_site.png)
 
 ## Comparing cancer occurance by race in each state.
-### Notice how white people form the majority in every state, nearly equal in size to the section for all races. Apparently, minorities either do not exist or do not get cancer in the Central North.
+### Notice how white people form the majority in every state, nearly equal in size to the section for all races.
 ![](./geographic_site_races.png)
 
 ## Comparing cancer occurance by racial minorities in each state
-### Taking out white people and all races leaves us with minority categories. These statistics appear to follow the demographic ratios that are prevalent in these regions, with a more black concentrated South East and a more Hispanic concentration to the West.
+### Taking out white people and all races leaves us with minority categories. These statistics appear to follow the demographic ratios that are prevalent in these regions, with a more black concentrated South East and a more Hispanic concentration to the West. Apparently, minorities either do not exist or do not get cancer in the Central North.
 ![](./geographic_site_minorities.png)
 
 ***
