@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
-<workbook source-platform='mac' version='8.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook source-platform='win' version='8.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <!-- build 8300.15.0219.2230                                -->
   <preferences>
   </preferences>
@@ -203,7 +203,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/AGE_ADJ_RATES_CHILD (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 10:59:56 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\AGE_ADJ_RATES_CHILD (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 10:59:56 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -691,7 +691,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/AGE_ADJ_RATES_ICCC (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:00:04 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\AGE_ADJ_RATES_ICCC (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:00:04 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -1160,7 +1160,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/AGE_SPECIFIC_RATE_CHILD (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:00:47 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\AGE_SPECIFIC_RATE_CHILD (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:00:47 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -1642,7 +1642,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/AGE_SPECIFIC_RATES_ICCC (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:01:43 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\AGE_SPECIFIC_RATES_ICCC (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:01:43 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -1923,688 +1923,6 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
-    <datasource caption='BRAIN_CANCER_BY_SITE (C##CS329E_DAH3227)' inline='true' name='oracle.42129.751520370400' version='8.3'>
-      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_DAH3227' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_dah3227'>
-        <relation name='BRAIN_CANCER_BY_SITE' table='[C##CS329E_DAH3227].[BRAIN_CANCER_BY_SITE]' type='table' />
-        <refresh increment-key='' incremental-updates='false'>
-        </refresh>
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>AGE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[AGE]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>AGE</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>4000</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AGE_ADJUSTED_CI_LOWER</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AGE_ADJUSTED_CI_LOWER]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>AGE_ADJUSTED_CI_LOWER</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>2</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AGE_ADJUSTED_CI_UPPER</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AGE_ADJUSTED_CI_UPPER]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>AGE_ADJUSTED_CI_UPPER</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>2</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>AGE_ADJUSTED_RATE</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[AGE_ADJUSTED_RATE]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>AGE_ADJUSTED_RATE</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>2</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>BEHAVIOR</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[BEHAVIOR]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>BEHAVIOR</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>4000</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>COUNT</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[COUNT]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>COUNT</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>POPULATION</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[POPULATION]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>POPULATION</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SEX</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[SEX]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>SEX</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>4000</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SITE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[SITE]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>SITE</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>0</scale>
-            <width>4000</width>
-            <contains-null>true</contains-null>
-            <padded-semantics>true</padded-semantics>
-            <collation charset='1' flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>YEAR</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[YEAR]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>YEAR</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>datetime</local-type>
-            <aggregation>Year</aggregation>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_DAT&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>CRUDE_CI_LOWER</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[CRUDE_CI_LOWER]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>CRUDE_CI_LOWER</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>2</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>CRUDE_CI_UPPER</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[CRUDE_CI_UPPER]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>CRUDE_CI_UPPER</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>2</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>CRUDE_RATE</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[CRUDE_RATE]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>CRUDE_RATE</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>2</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SERIALID</remote-name>
-            <remote-type>131</remote-type>
-            <local-name>[SERIALID]</local-name>
-            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
-            <remote-alias>SERIALID</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <precision>9</precision>
-            <scale>0</scale>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
-            </attributes>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Age Adjusted Ci Lower' datatype='real' name='[AGE_ADJUSTED_CI_LOWER]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Age Adjusted Ci Upper' datatype='real' name='[AGE_ADJUSTED_CI_UPPER]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Age Adjusted Rate' datatype='real' name='[AGE_ADJUSTED_RATE]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Behavior' datatype='string' name='[BEHAVIOR]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Count' datatype='integer' name='[COUNT]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Crude Ci Lower' datatype='real' name='[CRUDE_CI_LOWER]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Crude Ci Upper' datatype='real' name='[CRUDE_CI_UPPER]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Crude Rate' datatype='real' name='[CRUDE_RATE]' role='measure' type='quantitative'>
-      </column>
-      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
-        <calculation class='tableau' formula='1' />
-      </column>
-      <column caption='Population' datatype='integer' name='[POPULATION]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Serialid' datatype='integer' name='[SERIALID]' role='measure' type='quantitative'>
-      </column>
-      <column caption='Site' datatype='string' name='[SITE]' role='dimension' type='nominal'>
-      </column>
-      <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
-      </column>
-      <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/BRAIN_CANCER_BY_SITE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:02:31 PM'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <calculations>
-            <calculation column='[Number of Records]' formula='1' />
-          </calculations>
-          <refresh increment-key='' incremental-updates='false'>
-            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='2940' timestamp-start='2015-05-05 23:02:31.539' />
-          </refresh>
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>AGE</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[AGE]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>AGE</remote-alias>
-              <ordinal>0</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
-              <scale>1</scale>
-              <width>4000</width>
-              <contains-null>false</contains-null>
-              <collation flag='0' name='binary' />
-              <statistics>
-                <statistic aggregation='Min' datatype='string'>&quot;0-19&quot;</statistic>
-                <statistic aggregation='Max' datatype='string'>&quot;20+&quot;</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>AGE_ADJUSTED_CI_LOWER</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[AGE_ADJUSTED_CI_LOWER]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>AGE_ADJUSTED_CI_LOWER</remote-alias>
-              <ordinal>1</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>112</approx-count>
-              <contains-null>true</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='real'>0.0</statistic>
-                <statistic aggregation='Max' datatype='real'>23.800000000000001</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>AGE_ADJUSTED_CI_UPPER</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[AGE_ADJUSTED_CI_UPPER]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>AGE_ADJUSTED_CI_UPPER</remote-alias>
-              <ordinal>2</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>111</approx-count>
-              <contains-null>true</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='real'>0.0</statistic>
-                <statistic aggregation='Max' datatype='real'>24.300000000000001</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>AGE_ADJUSTED_RATE</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[AGE_ADJUSTED_RATE]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>AGE_ADJUSTED_RATE</remote-alias>
-              <ordinal>3</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>112</approx-count>
-              <contains-null>true</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='real'>0.0</statistic>
-                <statistic aggregation='Max' datatype='real'>24.0</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>BEHAVIOR</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[BEHAVIOR]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>BEHAVIOR</remote-alias>
-              <ordinal>4</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
-              <scale>1</scale>
-              <width>4000</width>
-              <contains-null>false</contains-null>
-              <collation flag='0' name='binary' />
-              <statistics>
-                <statistic aggregation='Min' datatype='string'>&quot;Benign/Borderline&quot;</statistic>
-                <statistic aggregation='Max' datatype='string'>&quot;Malignant&quot;</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>2</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>COUNT</remote-name>
-              <remote-type>3</remote-type>
-              <local-name>[COUNT]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>COUNT</remote-alias>
-              <ordinal>5</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>791</approx-count>
-              <contains-null>true</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='integer'>16</statistic>
-                <statistic aggregation='Max' datatype='integer'>44685</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>CRUDE_CI_LOWER</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[CRUDE_CI_LOWER]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>CRUDE_CI_LOWER</remote-alias>
-              <ordinal>6</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>111</approx-count>
-              <contains-null>true</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='real'>0.0</statistic>
-                <statistic aggregation='Max' datatype='real'>25.399999999999999</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>CRUDE_CI_UPPER</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[CRUDE_CI_UPPER]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>CRUDE_CI_UPPER</remote-alias>
-              <ordinal>7</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>111</approx-count>
-              <contains-null>true</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='real'>0.0</statistic>
-                <statistic aggregation='Max' datatype='real'>26.0</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>CRUDE_RATE</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[CRUDE_RATE]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>CRUDE_RATE</remote-alias>
-              <ordinal>8</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>114</approx-count>
-              <contains-null>true</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='real'>0.0</statistic>
-                <statistic aggregation='Max' datatype='real'>25.699999999999999</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Number of Records</remote-name>
-              <remote-type>16</remote-type>
-              <local-name>[Number of Records]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Number of Records</remote-alias>
-              <ordinal>9</ordinal>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>false</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='integer'>1</statistic>
-                <statistic aggregation='Max' datatype='integer'>1</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>POPULATION</remote-name>
-              <remote-type>3</remote-type>
-              <local-name>[POPULATION]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>POPULATION</remote-alias>
-              <ordinal>10</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>42</approx-count>
-              <contains-null>false</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='integer'>38177564</statistic>
-                <statistic aggregation='Max' datatype='integer'>220136827</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>5</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SERIALID</remote-name>
-              <remote-type>2</remote-type>
-              <local-name>[SERIALID]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SERIALID</remote-alias>
-              <ordinal>11</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>2940</approx-count>
-              <contains-null>false</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='integer'>1</statistic>
-                <statistic aggregation='Max' datatype='integer'>3360</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>2</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;sint16&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SEX</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[SEX]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SEX</remote-alias>
-              <ordinal>12</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3</approx-count>
-              <scale>1</scale>
-              <width>4000</width>
-              <contains-null>false</contains-null>
-              <collation flag='0' name='binary' />
-              <statistics>
-                <statistic aggregation='Min' datatype='string'>&quot;Female&quot;</statistic>
-                <statistic aggregation='Max' datatype='string'>&quot;Male and Female&quot;</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>3</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SITE</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[SITE]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SITE</remote-alias>
-              <ordinal>13</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>35</approx-count>
-              <scale>1</scale>
-              <width>4000</width>
-              <contains-null>false</contains-null>
-              <collation flag='0' name='binary' />
-              <statistics>
-                <statistic aggregation='Min' datatype='string'>&quot;All other&quot;</statistic>
-                <statistic aggregation='Max' datatype='string'>&quot;Unique astrocytoma variants&quot;</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>4</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
-              </attributes>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>YEAR</remote-name>
-              <remote-type>135</remote-type>
-              <local-name>[YEAR]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>YEAR</remote-alias>
-              <ordinal>14</ordinal>
-              <family>BRAIN_CANCER_BY_SITE</family>
-              <local-type>datetime</local-type>
-              <aggregation>Year</aggregation>
-              <approx-count>7</approx-count>
-              <contains-null>false</contains-null>
-              <statistics>
-                <statistic aggregation='Min' datatype='datetime'>#2004-04-01 00:00:00#</statistic>
-                <statistic aggregation='Max' datatype='datetime'>#2010-04-01 00:00:00#</statistic>
-              </statistics>
-              <attributes>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
-                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>0</attribute>
-                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
-                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
-                <attribute datatype='string' name='DebugRemoteType'>&quot;datetime&quot;</attribute>
-              </attributes>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-    </datasource>
     <datasource caption='CANCER_BY_AGE (C##CS329E_DAH3227)' inline='true' name='oracle.42129.752048136600' version='8.3'>
       <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_DAH3227' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_dah3227'>
         <relation name='CANCER_BY_AGE' table='[C##CS329E_DAH3227].[CANCER_BY_AGE]' type='table' />
@@ -2839,7 +2157,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/CANCER_BY_AGE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:03:09 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\CANCER_BY_AGE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:03:09 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -3498,7 +2816,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/CANCER_BY_AREA (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:04:01 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\CANCER_BY_AREA (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:04:01 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -4212,7 +3530,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/CANCER_BY_SITE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:04:58 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\CANCER_BY_SITE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:04:58 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -4914,7 +4232,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/CHILD_CANCER_BY_SITE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:05:41 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\CHILD_CANCER_BY_SITE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:05:41 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -5623,7 +4941,7 @@
       <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
       </column>
       <extract count='-1' enabled='true' units='records'>
-        <connection class='dataengine' dbname='/Users/Alex/Google Drive/Spring 2015/CS 329E Vis/Data Visualization Repos/DV_FinalProject/01 Data/CHILD_CANCER_ICCC (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:06:45 PM'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\02 Tableau Workbook\Users\Alex\Google Drive\Spring 2015\CS 329E Vis\Data Visualization Repos\DV_FinalProject\01 Data\CHILD_CANCER_ICCC (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:06:45 PM'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <calculations>
             <calculation column='[Number of Records]' formula='1' />
@@ -6031,13 +5349,741 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
     </datasource>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='8.3'>
+      <aliases enabled='yes' />
+      <column caption='Nth' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='3'>
+        <calculation class='tableau' formula='3' />
+        <range granularity='1' max='10' min='0' />
+      </column>
+    </datasource>
+    <datasource caption='BRAIN_CANCER_BY_SITE (C##CS329E_DAH3227)' inline='true' name='oracle.42129.751520370400' version='8.3'>
+      <connection authentication='RDBMS' class='oracle' port='1521' schema='C##CS329E_DAH3227' server='129.152.144.84' service='ORCL.usuniversi01134.oraclecloud.internal' username='C##cs329e_dah3227'>
+        <relation name='BRAIN_CANCER_BY_SITE' table='[C##CS329E_DAH3227].[BRAIN_CANCER_BY_SITE]' type='table' />
+        <refresh increment-key='' incremental-updates='false'>
+        </refresh>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>AGE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AGE]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>AGE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE_ADJUSTED_CI_LOWER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AGE_ADJUSTED_CI_LOWER]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>AGE_ADJUSTED_CI_LOWER</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE_ADJUSTED_CI_UPPER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AGE_ADJUSTED_CI_UPPER]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>AGE_ADJUSTED_CI_UPPER</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE_ADJUSTED_RATE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[AGE_ADJUSTED_RATE]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>AGE_ADJUSTED_RATE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BEHAVIOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BEHAVIOR]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>BEHAVIOR</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNT</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[COUNT]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>COUNT</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULATION</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POPULATION]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>POPULATION</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEX</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SEX]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>SEX</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SITE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SITE]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>SITE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>0</scale>
+            <width>4000</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='1' flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_CHR{charset=873,charform=1}&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YEAR</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[YEAR]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>YEAR</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_DAT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRUDE_CI_LOWER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[CRUDE_CI_LOWER]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>CRUDE_CI_LOWER</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRUDE_CI_UPPER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[CRUDE_CI_UPPER]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>CRUDE_CI_UPPER</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CRUDE_RATE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[CRUDE_RATE]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>CRUDE_RATE</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SERIALID</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SERIALID]</local-name>
+            <parent-name>[BRAIN_CANCER_BY_SITE]</parent-name>
+            <remote-alias>SERIALID</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>9</precision>
+            <scale>0</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQLT_NUM&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Adjusted Ci Lower' datatype='real' name='[AGE_ADJUSTED_CI_LOWER]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Age Adjusted Ci Upper' datatype='real' name='[AGE_ADJUSTED_CI_UPPER]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Age Adjusted Rate' datatype='real' name='[AGE_ADJUSTED_RATE]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Behavior' datatype='string' name='[BEHAVIOR]' role='dimension' type='nominal'>
+      </column>
+      <column aggregation='Sum' caption='Count' datatype='integer' name='[COUNT]' role='dimension' type='ordinal'>
+      </column>
+      <column caption='Crude Ci Lower' datatype='real' name='[CRUDE_CI_LOWER]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Crude Ci Upper' datatype='real' name='[CRUDE_CI_UPPER]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Crude Rate' datatype='real' name='[CRUDE_RATE]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Nth Calculation' datatype='integer' name='[Calculation_3380511001315051]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='LOOKUP(MAX([COUNT]), FIRST() + [Parameters].[Parameter 1] - 1)' scope-isolation='false'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Population' datatype='integer' name='[POPULATION]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Serialid' datatype='integer' name='[SERIALID]' role='measure' type='quantitative'>
+      </column>
+      <column caption='Site' datatype='string' name='[SITE]' role='dimension' type='nominal'>
+      </column>
+      <column caption='Year' datatype='datetime' name='[YEAR]' role='dimension' type='ordinal'>
+      </column>
+      <extract count='-1' enabled='true' units='records'>
+        <connection class='dataengine' dbname='C:\Users\Jose\Documents\DataVisualization\DV_Final_Project\01 Data\BRAIN_CANCER_BY_SITE (C##CS329E_DAH3227).tde' schema='Extract' tablename='Extract' update-time='05/05/2015 11:02:31 PM'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <calculations>
+            <calculation column='[Number of Records]' formula='1' />
+          </calculations>
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='2940' timestamp-start='2015-05-05 23:02:31.539' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>AGE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AGE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE</remote-alias>
+              <ordinal>0</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <scale>1</scale>
+              <width>4000</width>
+              <contains-null>false</contains-null>
+              <collation flag='0' name='binary' />
+              <statistics>
+                <statistic aggregation='Min' datatype='string'>&quot;0-19&quot;</statistic>
+                <statistic aggregation='Max' datatype='string'>&quot;20+&quot;</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGE_ADJUSTED_CI_LOWER</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[AGE_ADJUSTED_CI_LOWER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE_ADJUSTED_CI_LOWER</remote-alias>
+              <ordinal>1</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>112</approx-count>
+              <contains-null>true</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='real'>0.0</statistic>
+                <statistic aggregation='Max' datatype='real'>23.800000000000001</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGE_ADJUSTED_CI_UPPER</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[AGE_ADJUSTED_CI_UPPER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE_ADJUSTED_CI_UPPER</remote-alias>
+              <ordinal>2</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='real'>0.0</statistic>
+                <statistic aggregation='Max' datatype='real'>24.300000000000001</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGE_ADJUSTED_RATE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[AGE_ADJUSTED_RATE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE_ADJUSTED_RATE</remote-alias>
+              <ordinal>3</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>112</approx-count>
+              <contains-null>true</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='real'>0.0</statistic>
+                <statistic aggregation='Max' datatype='real'>24.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BEHAVIOR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BEHAVIOR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BEHAVIOR</remote-alias>
+              <ordinal>4</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <scale>1</scale>
+              <width>4000</width>
+              <contains-null>false</contains-null>
+              <collation flag='0' name='binary' />
+              <statistics>
+                <statistic aggregation='Min' datatype='string'>&quot;Benign/Borderline&quot;</statistic>
+                <statistic aggregation='Max' datatype='string'>&quot;Malignant&quot;</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>2</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COUNT</remote-name>
+              <remote-type>3</remote-type>
+              <local-name>[COUNT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COUNT</remote-alias>
+              <ordinal>5</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>791</approx-count>
+              <contains-null>true</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='integer'>16</statistic>
+                <statistic aggregation='Max' datatype='integer'>44685</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CRUDE_CI_LOWER</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CRUDE_CI_LOWER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CRUDE_CI_LOWER</remote-alias>
+              <ordinal>6</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='real'>0.0</statistic>
+                <statistic aggregation='Max' datatype='real'>25.399999999999999</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CRUDE_CI_UPPER</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CRUDE_CI_UPPER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CRUDE_CI_UPPER</remote-alias>
+              <ordinal>7</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='real'>0.0</statistic>
+                <statistic aggregation='Max' datatype='real'>26.0</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CRUDE_RATE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CRUDE_RATE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CRUDE_RATE</remote-alias>
+              <ordinal>8</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>114</approx-count>
+              <contains-null>true</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='real'>0.0</statistic>
+                <statistic aggregation='Max' datatype='real'>25.699999999999999</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number of Records</remote-name>
+              <remote-type>16</remote-type>
+              <local-name>[Number of Records]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Number of Records</remote-alias>
+              <ordinal>9</ordinal>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>1</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULATION</remote-name>
+              <remote-type>3</remote-type>
+              <local-name>[POPULATION]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULATION</remote-alias>
+              <ordinal>10</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='integer'>38177564</statistic>
+                <statistic aggregation='Max' datatype='integer'>220136827</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>5</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SERIALID</remote-name>
+              <remote-type>2</remote-type>
+              <local-name>[SERIALID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SERIALID</remote-alias>
+              <ordinal>11</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2940</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='integer'>1</statistic>
+                <statistic aggregation='Max' datatype='integer'>3360</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>2</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (unique)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;sint16&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SEX</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SEX]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SEX</remote-alias>
+              <ordinal>12</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <scale>1</scale>
+              <width>4000</width>
+              <contains-null>false</contains-null>
+              <collation flag='0' name='binary' />
+              <statistics>
+                <statistic aggregation='Min' datatype='string'>&quot;Female&quot;</statistic>
+                <statistic aggregation='Max' datatype='string'>&quot;Male and Female&quot;</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>3</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SITE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SITE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SITE</remote-alias>
+              <ordinal>13</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>35</approx-count>
+              <scale>1</scale>
+              <width>4000</width>
+              <contains-null>false</contains-null>
+              <collation flag='0' name='binary' />
+              <statistics>
+                <statistic aggregation='Min' datatype='string'>&quot;All other&quot;</statistic>
+                <statistic aggregation='Max' datatype='string'>&quot;Unique astrocytoma variants&quot;</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>16000</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>4</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+              </attributes>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>YEAR</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[YEAR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>YEAR</remote-alias>
+              <ordinal>14</ordinal>
+              <family>BRAIN_CANCER_BY_SITE</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>false</contains-null>
+              <statistics>
+                <statistic aggregation='Min' datatype='datetime'>#2004-04-01 00:00:00#</statistic>
+                <statistic aggregation='Max' datatype='datetime'>#2010-04-01 00:00:00#</statistic>
+              </statistics>
+              <attributes>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+                <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>0</attribute>
+                <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+                <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+                <attribute datatype='string' name='DebugRemoteType'>&quot;datetime&quot;</attribute>
+              </attributes>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Nth' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='3'>
+          <calculation class='tableau' formula='3' />
+          <range granularity='1' max='10' min='0' />
+        </column>
+      </datasource-dependencies>
+    </datasource>
   </datasources>
   <worksheets>
     <worksheet name='Sheet 1'>
       <table>
         <view>
           <datasources>
+            <datasource caption='BRAIN_CANCER_BY_SITE (C##CS329E_DAH3227)' name='oracle.42129.751520370400' />
+            <datasource name='Parameters' />
           </datasources>
+          <datasource-dependencies datasource='oracle.42129.751520370400'>
+            <column datatype='string' name='[AGE]' role='dimension' type='nominal'>
+            </column>
+            <column caption='Behavior' datatype='string' name='[BEHAVIOR]' role='dimension' type='nominal'>
+            </column>
+            <column aggregation='Sum' caption='Count' datatype='integer' name='[COUNT]' role='dimension' type='ordinal'>
+            </column>
+            <column caption='Nth Calculation' datatype='integer' name='[Calculation_3380511001315051]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='LOOKUP(MAX([COUNT]), FIRST() + [Parameters].[Parameter 1] - 1)' scope-isolation='false'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[SEX]' role='dimension' type='nominal'>
+            </column>
+            <column caption='Site' datatype='string' name='[SITE]' role='dimension' type='nominal'>
+            </column>
+            <column-instance column='[AGE]' derivation='None' name='[none:AGE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[BEHAVIOR]' derivation='None' name='[none:BEHAVIOR:nk]' pivot='key' type='nominal' />
+            <column-instance column='[COUNT]' derivation='None' name='[none:COUNT:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[SEX]' derivation='None' name='[none:SEX:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SITE]' derivation='None' name='[none:SITE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_3380511001315051]' derivation='User' name='[usr:Calculation_3380511001315051:ok:5]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[oracle.42129.751520370400].[COUNT]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <sort class='natural' column='[oracle.42129.751520370400].[none:COUNT:ok]' direction='DESC' />
           <aggregation value='true' />
         </view>
         <style>
@@ -6048,9 +6094,17 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <encodings>
+              <text column='[oracle.42129.751520370400].[usr:Calculation_3380511001315051:ok:5]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
-        <rows></rows>
+        <rows>([oracle.42129.751520370400].[none:SITE:nk] / ([oracle.42129.751520370400].[none:BEHAVIOR:nk] / ([oracle.42129.751520370400].[none:SEX:nk] / ([oracle.42129.751520370400].[none:AGE:nk] / [oracle.42129.751520370400].[none:COUNT:ok]))))</rows>
         <cols></cols>
       </table>
     </worksheet>
@@ -6064,6 +6118,7 @@
             <card type='pages' />
             <card type='filters' />
             <card type='marks' />
+            <card mode='slider' param='[Parameters].[Parameter 1]' type='parameter' />
           </strip>
         </edge>
         <edge name='top'>
@@ -6075,31 +6130,142 @@
           </strip>
         </edge>
       </cards>
+      <highlight>
+        <color-one-way>
+          <field>[oracle.42129.751520370400].[none:AGE:nk]</field>
+          <field>[oracle.42129.751520370400].[none:BEHAVIOR:nk]</field>
+          <field>[oracle.42129.751520370400].[none:COUNT:ok]</field>
+          <field>[oracle.42129.751520370400].[none:SEX:nk]</field>
+          <field>[oracle.42129.751520370400].[none:SITE:nk]</field>
+          <field>[oracle.42129.751520370400].[yr:YEAR:ok]</field>
+        </color-one-way>
+      </highlight>
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='288' name='Sheet 1' width='348'>
-      iVBORw0KGgoAAAANSUhEUgAAAVwAAAEgCAYAAAD49suWAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAD60lEQVR4nO3UMQHAIBDAwFL/nh8VhIE7BZmyZmY+AI77bwcAvMJwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJE
-      DBcgYrgAEcMFiBguQMRwASKGCxAxXICI4QJEDBcgYrgAkQ3yPAY8hWYIbwAAAABJRU5ErkJg
-      gg==
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      SUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>
