@@ -100,3 +100,20 @@ source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 ## Types of cancer for males by race and mortality
 ### Males start to become increasingly diagnosed with cancer around age 55, where the most common to be diagnosed is prostate cancer. Like women, lung cancer is the most lethal for men, though prostate cancer becomes increasingly more lethal as the person gets older.
 ![](./age_range_male.png)
+
+***
+
+## Lets look at some crosstabs in Tableau
+### First, we'll look at the Rank crosstab. The function ranks the largest number of counts per state per year and partitions by sex, race, and cancer site. Only 5 states are included to ease viewing: California, Texas, Illinois, Florida, New York. California consistently produces the most cancer-caused deaths year after year.
+![](./Rank_crosstab.PNG)
+
+### And the field calculation:
+![](./rank_calculation.PNG)
+
+### Next, we'll look at the Nth crosstab. This function returns the nth largest count value, where n can be any positive integer. Here the counts are partitioned by age, sex, behavior, and cancer site. The Nth parameter allows us to select which count we wish to see. 
+![](./nth_crosstab.PNG)
+
+### And the field calculation:
+![](./nth_calculation.PNG)
+
+***
