@@ -45,15 +45,15 @@ source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 ***
 ## Let's now focus on geography. Alaska and Hawaii have been left out to improve the aesthetics of the following visualizations.
 
-## Comparing types of cancer occurance in each state
+## Comparing types of cancer occurence in each state
 ### Non-Hodgkin Lymphomas are by far the most common in each state. Interestingly, each state has very similar proportions of cancer types, leading one to believe that the form of cancer you are diagnosed with is not related to region.
 ![](./geographic_site.png)
 
-## Comparing cancer occurance by race in each state.
+## Comparing cancer occurence by race in each state.
 ### Notice how white people form the majority in every state, nearly equal in size to the section for all races.
 ![](./geographic_site_races.png)
 
-## Comparing cancer occurance by racial minorities in each state
+## Comparing cancer occurence by racial minorities in each state
 ### Taking out white people and all races leaves us with minority categories. These statistics appear to follow the demographic ratios that are prevalent in these regions, with a more black concentrated South East and a more Hispanic concentration to the West. Apparently, minorities either do not exist or do not get cancer in the Central North.
 ![](./geographic_site_minorities.png)
 
@@ -61,12 +61,12 @@ source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 ## Let's take another look at the most common cancers.
 
 ## Common cancers
-### Here is a circle chart comparing the proportion of cancer cases with each type of cancer. While the color is based on absolute count, the size is based on the percent occurance using the Count/Population calculated field below:
+### Here is a circle chart comparing the proportion of cancer cases with each type of cancer. While the color is based on absolute count, the size is based on the percent occurence using the Count/Population calculated field below:
 ![](./calcfield_count_over_population.png)
 
-### Using this calculated field allows us to factor in the populations of each region in question and to summarize cancer occurance by these regional percentages.
+### Using this calculated field allows us to factor in the populations of each region in question and to summarize cancer occurence by these regional percentages.
 
-### By percentage, lung, prostate, and breat cancers are very similar and in lead as the most common cancers. By count, however, lung cancer is far more prevalent.
+### By percentage, lung, prostate, and breast cancers are very similar and in lead as the most common cancers. By count, however, lung cancer is far more prevalent.
 ![](./common_cancers.png)
 
 ## Common cancers by sex
@@ -86,7 +86,7 @@ source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 ## We will now focus on age range
 
 ## Types of cancers for ages by race and sex
-### White people have the highest occurance of cancer by far, most likely because they are the most populous race in the United States, but several other factors are likely involved in these high numbers. If also appears that males start to be diagnosed with cancer more than women around ages 55-84
+### White people have the highest occurence of cancer by far, most likely because they are the most populous race in the United States, but several other factors are likely involved in these high numbers. If also appears that males start to be diagnosed with cancer more than women around ages 55-84
 ![](./age_range.png)
 
 ## Types of cancers for children by race and mortality
