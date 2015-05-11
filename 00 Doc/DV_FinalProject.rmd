@@ -66,7 +66,7 @@ source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 
 ### Using this calculated field allows us to factor in the populations of each region in question and to summarize cancer occurance by these regional percentages.
 
-### By percentage, lung, prostate, and breat cancers are very similar and in lead as the most common cancers. By count, however, lung cancer is far more prevalent.
+### By percentage, lung, prostate, and breast cancers are very similar and in lead as the most common cancers. By count, however, lung cancer is far more prevalent.
 ![](./common_cancers.png)
 
 ## Common cancers by sex
