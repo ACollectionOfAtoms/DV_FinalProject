@@ -1,8 +1,43 @@
 ---
   output: html_document
 ---
-  Elements Of Data Visualization: Final Project
+  Elements Of Data Visualization Final Project: Cancer Data Analysis
 ===
   __By Alex Cortez, Adam Hernandez, and Alex Pearce__
 
 __GitHub__: https://github.com/ACollectionOfAtoms/DV_FinalProject
+
+This data was provided by the Enigma.io database. It is described as such:
+United States Cancer Statistics (USCS) information is aggregated from thousands of local cancer registries and published by the National Program of Cancer Registries (NPCR), a division of the Centers for Disease Control and Prevention (CDC).
+
+## Load necessary packages
+```{r message=FALSE}
+source("../01 Data/load_packages.R",echo=TRUE)
+```
+
+## Dataframe Creations
+```{r message=FALSE}
+source("../01 Data/cancer_tables.R",echo=TRUE)
+```
+
+***
+
+## An analysis of cancer, age, death, and incidence through data wrangling. 
+```{r message=FALSE}
+source("../02 Data Wrangling/general_age_analysis.R",echo=TRUE)
+```
+
+## Inspecting Age and Site
+```{r message=FALSE}
+source("../02 Data Wrangling/age_site.R",echo=TRUE)
+```
+
+## Some Data manipulation...
+```{r message=FALSE}
+source("../02 Data Wrangling/age_site2.R",echo=TRUE)
+```
+
+## Further analysis, introducing race. 
+```{r message=FALSE}
+source("../02 Data Wrangling/age_site3.R",echo=TRUE)
+```
