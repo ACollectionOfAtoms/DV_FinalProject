@@ -116,4 +116,7 @@ source("../02 Data Wrangling/age_site3.R",echo=TRUE)
 ### And the field calculation:
 ![](./nth_calculation.PNG)
 
+### Finally, let's look at a cumulative distribution crosstab. This function gives the probability that a value picked at random will be below another number. In this case, we look at cancer in children at various sites. We partition count by age group, year, and cancer site. The distribution is represented in the final column. The built-in percentile quick calculation was used here. A quick observation that fits this data: A child is much more likely to develop Leukemia than kidney-related cancer.
+![](./cume_dist_crosstab.PNG)
+
 ***
